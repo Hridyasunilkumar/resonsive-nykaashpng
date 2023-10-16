@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="nykaa.css">
+</head>
+<body>
+    <div class="container" id="container">
+        
+          <div class="first">
+          <img style="width: 80px; height: 90px;" src="./image/logo.jpg" alt="no img" class="logo">
+          <nav>
+          <ul>
+            <li> <a href=""> Catogories</a></li>
+              <li> <a href=""> Brand</a></li>
+              <li> <a href="">Luxe</a></li>
+              <li> <a href="">Nykaa fashion</a></li>
+              <li> <a href="">Beauty advice</a></li>
+              </ul>
+               
+      </nav>
+      <div class="search">
+        <form class="d-flex" role="search">
+          <input  style="font-size: 20px; width: 200px;" class="form-control me-2" type="search" placeholder=" search on nykaa" aria-label="Search"  > 
+          <button id="sign" class="btn btn-outline-success" type="submit">Sign in</button>
+        <h2 id="bag">  <i class="fa-solid fa-cart-shopping"></i></i></h2>
+        </div>
+    </div>
+
+  <div class="sec">
+    <ul>
+        <li> <a href=""> Makeup </a></li>
+        <li>  <a href="">Skin </a></li>
+        <li> <a href="">Hair </a></li>
+        <li> <a href="">Appliances </a></li>
+        <li> <a href="">Bath & body</a></li>
+        <li> <a href=""> Natural </a></li>
+        <li> <a href="">Mom & baby </a></li>
+        <li> <a href="">Health and wellness </a></li>
+        <li> <a href="">Men </a></li>
+        <li> <a href="">Fragrance </a></li>
+        <li> <a href=""> Pop ups </a></li>
+
+    </ul>
+  </div>
+
+
+   <!-- carousel -->
+   <div>
+    <h5   id="lip" style="color: rgb(168, 167, 167);">Home > Makeup > Lipstick</h5>
+   </div>
+   <div class="carouse">
+   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="100">
+        <img src="./image/slide1.jpg" class="d-block w-50" alt="no img">
+      </div>
+      <div class="carousel-item" data-bs-interval="200">
+        <img src="./image/slide2.jpg" class="d-block w-50" alt="no img">
+      </div>
+ 
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+  <div>
+    <h4 id="shop">Shop by type</h4>
+   </div>
+ 
+<div class="round">
+   
+    <div>
+        <img style="width: 220px;" src="./image/round1.jpg" alt="">
+        <h4 style="margin-left: 20px;">Liquid lipstick</h4>
+    </div>
+    <div>
+        <img  style="width: 220px;" src="./image/round2.jpg" alt="">
+        <h4 style="margin-left: 60px;" >lipstick</h4>
+    </div>
+    <div>
+        <img style="width: 220px;" src="./image/round3.jpg" alt="">
+        <h4 style="margin-left: 70px;">lipcrayon</h4>
+    </div>
+    <div>
+        <img style="width: 220px;" src="./image/round4.jpg" alt="">
+        <h4 style="margin-left: 80px;">lipstain</h4>
+    </div>
+    
+
+</div>
+
+
+
+
+<div class="dro">
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Sort by 
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        
+    <li> <label for="male">---Relevance------</label>
+      <input type="radio" name="gender" id="male"></li>
+    <li> <label for="male">---popularity------</label>
+      <input type="radio" name="gender" id="male"></li>
+    <li> <label for="male">price--low to High</label>
+      <input type="radio" name="gender" id="male"></li>
+      <li> <label for="male">price--High to low</label>
+        <input type="radio" name="gender" id="male"></li>
+        <button style="background-color: #E80071; border-style: groove; border-radius: 40px; border-color: aliceblue; color: white;">Apply filter</button>
+  </ul>
+</div>
+
+
+<div class="dropdown2">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+    Filter 
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+        
+    <li> <label  for="male">400-500 </label>
+      <input type="checkbox" name="gender" id="male"></li>
+    <li> <label for="male">500-600</label>
+      <input type="checkbox" name="gender" id="male"></li>
+    <li> <label for="male">600-800</label>
+      <input type="checkbox" name="gender" id="male"></li>
+      <li> <label for="male">800-999</label>
+        <input type="checkbox" name="gender" id="male"></li>
+        <button style="background-color: #E80071; border-style: groove; border-radius: 40px; border-color: aliceblue; color: white;">Apply filter</button>
+  </ul>
+</div>
+
+
+<div class="dropdown3">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+    Brand 
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+        
+    <li> <label for="ml">nykaa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="checkbox" name="gender" id="ml"></li>
+    <li> <label for="ml">Luxee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="checkbox" name="gender" id="ml"></li>
+    <li> <label for="ml">lakme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="checkbox" name="gender" id="ml"></li>
+      <li> <label for="ml">Purple&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+      </label>
+        <input type="checkbox" name="gender" id="ml"></li>
+        <button style="background-color: #E80071; border-style: groove; border-radius: 40px; border-color: aliceblue; color: white; ">Apply Brand</button>
+      </ul>
+     
+</div>
+<div class="dropdown4">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
+    color
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+        
+    <li> <label for="ma">pink shade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="checkbox" name="gender" id="ma"></li>
+    <li> <label for="ma">Red shade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="checkbox" name="gender" id="ma"></li>
+    <li> <label for="ma">Nude shade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+      <input type="checkbox" name="gender" id="ma"></li>
+      <li> <label for="ma">brown shade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </label>
+        <input type="checkbox" name="gender" id="ma"></li>
+        <button style="background-color: #E80071; border-style: groove; border-radius: 40px; border-color: aliceblue; color: white; ">Apply color</button>
+      </ul>
+     
+</div>
+</div>
+
+
+<div style="margin-left: 5px;">
+<div  style="   background-color:rgb(245, 244, 244);  width: 200px; margin-top: 10px;   " class="ch">
+  <h6>Catogory</h6>
+  <input type="text" placeholder="search">
+  
+  
+  <li style="list-style: none;">
+    
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp; lip gloss</label>
+  </li>
+
+  <li style="list-style: none;">
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp; Matte finish</label>
+  </li>
+
+
+
+  <li style="list-style: none;">
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp; lip crayon</label>
+  </li>
+
+</div>
+
+
+
+<div  style="   background-color:rgb(245, 244, 244);  width: 200px; margin-top: 10px;   " class="ch">
+  <h6>Discount</h6>
+  <input type="text" placeholder="search">
+  
+  
+  <li style="list-style: none;">
+    
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp; 60 % & above</label>
+  </li>
+
+  <li style="list-style: none;">
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp; 50 % & above</label>
+  </li>
+
+
+
+  <li style="list-style: none;">
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp; 10% & above</label>
+  </li>
+
+</div>
+
+<div  style="   background-color:rgb(245, 244, 244);  width: 200px; margin-top: 10px;   " class="ch">
+  <h6>Finish</h6>
+  <input type="text" placeholder="search">
+  
+  
+  <li style="list-style: none;">
+    
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp; Natural</label>
+  </li>
+
+  <li style="list-style: none;">
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp; Glossy</label>
+  </li>
+
+
+
+  <li style="list-style: none;">
+    <input id="ct" type="checkbox" >
+    <label for="ct"> &nbsp;Glitter</label>
+  </li>
+
+</div>
+</div>
+
+  
+
+
+<div   class="container1">
+    <div class="abo">
+    <h2 style="margin-left: 500px; margin-top: 50px;">All products</h2>
+    <br>
+   </div>
+
+
+   <div class="row">
+    <div class="col-3">
+    <br>
+           <div class="card" style="width: 15rem; margin-left: 100px; height: 510px;">
+          <img  style="width: 200px;" src="./image/pro1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title">Nykaa luxe lipstick</h5>
+          <p id="ok"><span style="color: black;">MRP</span> <strike style="color: gray;"> ₹650 </strike>  ₹585 </p>
+          <p style="color: rgb(203, 33, 118); font-size: 25px;">Extra 10% off</p>
+          <p class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+         
+        <a style="background-color: whitesmoke; width: 40px;"  href="#" class="btnr "><i class="fa-solid fa-heart-circle-plus"></i></a>
+           <a style="background-color:rgb(231, 231, 231); color:black; margin-top: -65px; margin-left: 50px; width: 150px; " href="#" class="btn" >Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+
+        </div>
+          </div>
+          </div>
+
+
+          <div class="col-3">
+            <br>
+                   <div class="card" style="width: 15rem; margin-left: 50px; height: 510px;">
+                    <img  style="width: 200px; height: 300px;" src="./image/pro2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Absolute gloss</h5>
+                    <p id="ok"><span style="color: black;">MRP</span> <strike style="color: gray;"> ₹450 </strike>  ₹390 </p>
+                    <p style="color: rgb(203, 33, 118); font-size: 25px;">Extra 10% off</p>
+                    <p class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                   
+                  <a style="background-color: whitesmoke; width: 40px; margin-top: 200px;"  href="#" class="btnr " ><i class="fa-solid fa-heart-circle-plus"></i></a>
+                     <a style="background-color:rgb(231, 231, 231); color:black; margin-top: -70px; margin-left: 50px; width: 150px; " href="#" class="btn" >Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+          
+                  </div>
+                  </div>
+                  </div>
+        
+
+                  <div class="col-3">
+                    <br>
+                    <div class="card" style="width: 15rem; margin-left: 10px; height: 510px;">
+                        <img  style="width: 200px; height: 300px;" src="./image/pro3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Luxe matte</h5>
+                        <p id="ok"><span style="color: black;">MRP</span> <strike style="color: gray;"> ₹750 </strike>  ₹685 </p>
+                        <p style="color: rgb(203, 33, 118); font-size: 25px;">Extra 10% off</p>
+                        <p class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                       
+                      <a style="background-color: whitesmoke; width: 40px; margin-top: 200px;"  href="#" class="btnr " ><i class="fa-solid fa-heart-circle-plus"></i></a>
+                         <a style="background-color:rgb(231, 231, 231); color:black; margin-top: -70px; margin-left: 50px; width: 150px; " href="#" class="btn" >Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+              
+                  
+                          </div>
+                          </div>
+                          </div>
+                
+                          <div class="col-3">
+                            <br>
+                            <div class="card" style="width: 15rem; margin-left: -40px; height: 510px;">
+                                <img  style="width: 200px; height: 300px;" src="./image/pro4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Kay Beauty crayon</h5>
+                                <p id="ok"><span style="color: black;">MRP</span> <strike style="color: gray;"> ₹350 </strike>  ₹285 </p>
+                                <p style="color: rgb(203, 33, 118); font-size: 25px;">Extra 10% off</p>
+                                <p class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                               
+                              <a style="background-color: whitesmoke; width: 40px; margin-top: 200px;"  href="#" class="btnr " ><i class="fa-solid fa-heart-circle-plus"></i></a>
+                                 <a style="background-color:rgb(231, 231, 231); color:black; margin-top: -70px; margin-left: 50px; width: 150px; " href="#" class="btn" >Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+                      
+                                  </div>
+                                  </div>
+                                  </div>
+                        
+      </div>
+      
+      </div>    
+
+
+
+
+
+
+
+
+
+      <div class="container2">
+        
+    
+    
+       <div class="row">
+        <div class="col-3">
+        <br>
+        <div class="card" style="width: 15rem; margin-left: 100px; height: 510px;">
+            <img  style="width: 200px; height: 300px;" src="./image/pro5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Tilburry matte</h5>
+            <p id="ok"><span style="color: black;">MRP</span> <strike style="color: gray;"> ₹550 </strike>  ₹510 </p>
+            <p style="color: rgb(203, 33, 118); font-size: 25px;">Extra 10% off</p>
+            <p class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+           
+          <a style="background-color: whitesmoke; width: 40px;"  href="#" class="btnr "><i class="fa-solid fa-heart-circle-plus"></i></a>
+             <a style="background-color:rgb(231, 231, 231); color:black; margin-top: -65px; margin-left: 50px; width: 150px; " href="#" class="btn" >Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+              </div>
+              </div>
+    
+    
+              <div class="col-3">
+                <br>
+                <div class="card" style="width: 15rem; margin-left: 50px; height: 510px;">
+                    <img  style="width: 200px; height: 300px;" src="./image/pro6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Comfy creame shade</h5>
+                    <p id="ok"><span style="color: black;">MRP</span> <strike style="color: gray;"> ₹650 </strike>  ₹585 </p>
+                    <p style="color: rgb(203, 33, 118); font-size: 25px;">Extra 10% off</p>
+                    <p class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                   
+                  <a style="background-color: whitesmoke; width: 40px; margin-top: 200px;"  href="#" class="btnr " ><i class="fa-solid fa-heart-circle-plus"></i></a>
+                     <a style="background-color:rgb(231, 231, 231); color:black; margin-top: -70px; margin-left: 50px; width: 150px; " href="#" class="btn" >Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+          
+                      </div>
+                      </div>
+                      </div>
+            
+    
+                      <div class="col-3">
+                        <br>
+                        <div class="card" style="width: 15rem; margin-left: 10px; height: 510px;">
+                            <img  style="width: 200px; height: 300px;" src="./image/pro77.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Milani fettish matte</h5>
+                            <p id="ok"><span style="color: black;">MRP</span> <strike style="color: gray;"> ₹850 </strike>  ₹785 </p>
+                            <p style="color: rgb(203, 33, 118); font-size: 25px;">Extra 10% off</p>
+                            <p class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                           
+                          <a style="background-color: whitesmoke; width: 40px; margin-top: 200px;"  href="#" class="btnr " ><i class="fa-solid fa-heart-circle-plus"></i></a>
+                             <a style="background-color:rgb(231, 231, 231); color:black; margin-top: -70px; margin-left: 50px; width: 150px; " href="#" class="btn" >Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+                  
+                              </div>
+                              </div>
+                              </div>
+                    
+                              <div class="col-3">
+                                <br>
+                                <div class="card" style="width: 15rem; margin-left: -40px; height: 510px;">
+                                    <img  style="width: 200px; height: 300px;" src="./image/pro8.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Matte liquid finish</h5>
+                                    <p id="ok"><span style="color: black;">MRP</span> <strike style="color: gray;"> ₹650 </strike>  ₹585 </p>
+                                    <p style="color: rgb(203, 33, 118); font-size: 25px;">Extra 10% off</p>
+                                    <p class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                                   
+                                  <a style="background-color: whitesmoke; width: 40px; margin-top: 200px;"  href="#" class="btnr " ><i class="fa-solid fa-heart-circle-plus"></i></a>
+                                     <a style="background-color:rgb(231, 231, 231); color:black; margin-top: -70px; margin-left: 50px; width: 150px; " href="#" class="btn" >Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+                          
+                                      </div>
+                                      </div>
+                                      </div>
+                            
+          </div>
+          </div>    
+
+          
+
+          <p id="pg" style="margin-top: 30px; font-size: 20px; margin-left: 100px;"> page 2 of 144</p>
+          <div class="bdy">
+            
+            <ul>
+                <li class="prev"><a href=""><i class="fa-solid fa-arrow-left"></i></a></li>
+                <li class="page"><a href="">1</a></li>
+                <li class="page active"><a href="">2</a></li>
+                <li class="page"><a href="">3</a></li>
+                <li class="page"><a href="">4</a></li>
+                <li class="page"><a href="">5</a></li>
+                <li class="next"><a href=""><i class="fa-solid fa-arrow-right"></i></a></li>
+            </ul>
+            </div>
+
+            <div style="margin-top: 60px; display: flex; font-weight: bold; background-color: rgb(58, 64, 71);width: 1388px; margin-left: -50px; color: white; font-size: 17px;" class="last1" >
+              <p style="margin-left: 20px;  margin-top: 50px;">Get special discount on  your inbox <br>your email <i class="fa-solid fa-envelope"></i> <br><button style="border-radius: 20px; width: 100px; background-color: black; color: white;">Send</button></p>
+              <p style="margin-left: 150px;   margin-top: 50px; ">Experience the Nykaa Mobile App <br> <br><button style="border-radius: 15px; background-color: black;color: white;"> <i class="fa-brands fa-google-play"></i> Get it on <br>  google playstore </button> <br><button style="border-radius: 15px; width: 150px; margin-top: 15px; background-color: black; color: white;">  <i class="fa-brands fa-apple"></i>  Download the App store </button></p>
+              <p style="margin-left: 200px;  margin-top: 50px; ">FOR ANY HELP, YOU MAY CALL US AT
+                1800-267-4444 <br>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</p>
+            </div>
+         
+    
+            <div  style="display: flex;" class="last2">
+            
+              <p style="width: 600px;" > <i style="color: #E80071;font-size: 30px; margin-top: 20px; " class="fa-solid fa-truck-fast"></i> FREE SHIPPING <br>
+                On Orders Above ₹299  </p>
+                <p style="width: 600px; margin-left: 100px; "  > <i style="color: #E80071;font-size: 30px; margin-top: 20px; "  class="fa-solid fa-rotate-left"></i> EASY RETURNS <br>
+                  15-Day Return Policy 
+                   </p>
+                  <p style="width: 600px; margin-left: 100px;" > <i style="color: #E80071;font-size: 30px; margin-top: 20px; "  class="fa-sharp fa-solid fa-circle-check"></i> 100% AUTHENTIC <br>
+                    Products Sourced Directly
+                     </p>
+                     <p style="width: 600px; margin-left: 100px;" > <i style="color: #E80071;font-size: 30px; margin-top: 20px; "  class=" fa-solid fa-tags"></i> 1900+ BRANDS <br>
+                      1.2 Lakh+ Products
+                      </p>
+                      <p style="width: 600px; margin-left: 100px; margin-top: 20px;" > Show us some love ❤ on social media <br> <a href=""></a>
+                        <a href=""><i style="color:black;font-size: 25px; " class="fa-brands fa-square-whatsapp"></i></a> 
+                        <a href=""><i style="color:black;font-size: 25px; " class="fa-brands fa-square-instagram"></i> </a>
+                        <a href=""><i style="color:black;font-size: 25px;" class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i style="color:black;font-size: 25px;" class="fa-brands fa-square-youtube"></i></a>
+                      <a href="">  <i style="color:black;font-size: 25px;" class="fa-brands fa-square-twitter"></i></a>
+                      </div>
+                        </p>
+
+  
+
+
+
+    
+            </div>
+
+
+</body>
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
